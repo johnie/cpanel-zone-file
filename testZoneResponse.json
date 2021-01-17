@@ -1,0 +1,254 @@
+{
+  "data": [
+    {
+      "statusmsg": "Zone Serialized",
+      "serialnum": "2020121601",
+      "record": [
+        {
+          "record": null,
+          "line": 3,
+          "type": "$TTL",
+          "ttl": "14400",
+          "Line": 3
+        },
+        {
+          "class": "IN",
+          "ttl": "14400",
+          "name": "example.com.",
+          "line": 15,
+          "Line": 15,
+          "type": "A",
+          "record": "193.111.10.1",
+          "address": "193.111.10.1"
+        },
+        {
+          "type": "TXT",
+          "record": "v=spf1 a mx ip4:193.1.1.1 include:spf.example.com ~all",
+          "Line": 17,
+          "char_str_list": [
+            "\"v=spf1 a mx ip4:193.1.1.1 include:spf.example.com ~all\""
+          ],
+          "txtdata": "v=spf1 a mx ip4:193.1.1.1 include:spf.example.com ~all",
+          "line": 17,
+          "unencoded": 1,
+          "class": "IN",
+          "name": "example.com.",
+          "ttl": "14400"
+        },
+        {
+          "class": "IN",
+          "name": "mail.example.com.",
+          "ttl": "14400",
+          "cname": "mail.example.com",
+          "line": 18,
+          "Line": 18,
+          "type": "CNAME",
+          "record": "mail.example.com"
+        },
+        {
+          "type": "CNAME",
+          "record": "example.com",
+          "Line": 19,
+          "cname": "example.com",
+          "line": 19,
+          "class": "IN",
+          "name": "www.example.com.",
+          "ttl": "14400"
+        },
+        {
+          "address": "193.111.10.1",
+          "record": "193.111.10.1",
+          "type": "A",
+          "Line": 20,
+          "line": 20,
+          "name": "ftp.example.com.",
+          "ttl": "14400",
+          "class": "IN"
+        },
+        {
+          "record": "emailconfig.example.com",
+          "type": "CNAME",
+          "Line": 21,
+          "line": 21,
+          "cname": "emailconfig.example.com",
+          "ttl": "14400",
+          "name": "autoconfig.example.com.",
+          "class": "IN"
+        },
+        {
+          "record": "emaildiscovery.example.com",
+          "type": "CNAME",
+          "Line": 22,
+          "cname": "emaildiscovery.example.com",
+          "line": 22,
+          "ttl": "14400",
+          "name": "autodiscover.example.com.",
+          "class": "IN"
+        },
+        {
+          "class": "IN",
+          "name": "_autodiscover._tcp.example.com.",
+          "ttl": "14400",
+          "weight": "0",
+          "target": "emaildiscovery.example.com",
+          "priority": "0",
+          "line": 23,
+          "port": "443",
+          "Line": 23,
+          "type": "SRV",
+          "record": null
+        },
+        {
+          "class": "IN",
+          "name": "default._domainkey.example.com.",
+          "ttl": "14400",
+          "line": 24,
+          "unencoded": 1,
+          "char_str_list": [
+            "\"v=DKIM1; k=rsa; p=MIIBIj5klaMjZheqpvKKCRtRuX+SKm5BK9OJbhZnkJYr0EFMfabH/zO+3Yuo+VjPPKI/Ja/BsI\"",
+            "F0Xo2Bc8ShCCVr4mAeJwBhbJGNrOLX2fdg0RoHgBIFjr1wOFjJ8f//k9c/o9eCXOCWY9S7elACglroVbLjVCyH+zHTo3uVV6D7iX1JB2p/1fXUCdz5lKz3I1UifKHoEZdkce7gAsy06btTuRJTNUwIDAQAB\\;"
+          ],
+          "txtdata": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BA7elACglroVbLjVCyH+zHTo3uVV6D7iX1JB2p/1fXUCdz5lKz3I1UifKHoEZdkce7gAsy06btTuRJTNUwIDAQAB;",
+          "Line": 24,
+          "type": "TXT",
+          "record": "v=DKIM1; k=rsa; p=MIIBIjANBgkqh+CB9WwaNAJ9em6oYBTo3uVV6D7iX1JB2p/1fXUCdz5lKz3I1UifKHoEZdkce7gAsy06btTuRJTNUwIDAQAB;"
+        },
+        {
+          "preference": "15",
+          "record": null,
+          "type": "MX",
+          "Line": 25,
+          "exchange": "q5ihyz7i4dbvga.mx-verification.google.com",
+          "line": 25,
+          "ttl": "14400",
+          "name": "example.com.",
+          "class": "IN"
+        },
+        {
+          "ttl": "14400",
+          "name": "example.com.",
+          "class": "IN",
+          "line": 26,
+          "exchange": "aspmx.l.google.com",
+          "Line": 26,
+          "record": null,
+          "type": "MX",
+          "preference": "1"
+        },
+        {
+          "class": "IN",
+          "name": "example.com.",
+          "ttl": "14400",
+          "line": 27,
+          "exchange": "alt1.aspmx.l.google.com",
+          "Line": 27,
+          "type": "MX",
+          "record": null,
+          "preference": "5"
+        },
+        {
+          "line": 28,
+          "exchange": "alte2.aspmx.l.google.com",
+          "class": "IN",
+          "ttl": "14400",
+          "name": "example.com.",
+          "type": "MX",
+          "record": null,
+          "preference": "5",
+          "Line": 28
+        },
+        {
+          "preference": "10",
+          "record": null,
+          "type": "MX",
+          "Line": 29,
+          "exchange": "alts3.aspmx.l.google.com",
+          "line": 29,
+          "ttl": "14400",
+          "name": "example.com.",
+          "class": "IN"
+        },
+        {
+          "ttl": "14400",
+          "name": "example.com.",
+          "class": "IN",
+          "line": 30,
+          "exchange": "alt4.aspmx.l.google.com",
+          "Line": 30,
+          "record": null,
+          "type": "MX",
+          "preference": "10"
+        },
+        {
+          "type": "TXT",
+          "record": "_cpanel-dcv-test-record=Ca3Cr4BSJSga_qChnwH15nEgAo84BF0AfjeDxzY7L",
+          "Line": 31,
+          "line": 31,
+          "unencoded": 1,
+          "txtdata": "_cpanel-dcv-test-record=Ca3CrZ7Zz4BSJSga_qChnwH15nEgAo84BF0AfjeDxzY7L",
+          "char_str_list": [
+            "_cpanel-dcv-test-record=Ca3CrZfqYVt2bKl4DqChnwH15nEgAo84BF0AfjeDxzY7L"
+          ],
+          "class": "IN",
+          "ttl": "14400",
+          "name": "_cpanel-dcv-test-record.example.com."
+        },
+        {
+          "Line": 32,
+          "record": "1zws3k9O7SyOQaRJUM",
+          "type": "TXT",
+          "name": "_acme-challenge.mail.example.com.",
+          "ttl": "14400",
+          "class": "IN",
+          "char_str_list": [
+            "1zws3k9O7SyOQaRJUM"
+          ],
+          "txtdata": "1zws3k9O7SyOQaRJUM",
+          "unencoded": 1,
+          "line": 32
+        },
+        {
+          "unencoded": 1,
+          "line": 33,
+          "char_str_list": [
+            "MS=ms93780790"
+          ],
+          "txtdata": "MS=ms93780790",
+          "ttl": "14400",
+          "name": "example.com.",
+          "class": "IN",
+          "record": "MS=ms93780790",
+          "type": "TXT",
+          "Line": 33
+        },
+        {
+          "record": "i6Zz6cOa-RnmNQHLkQZeowLoOw",
+          "type": "TXT",
+          "Line": 34,
+          "unencoded": 1,
+          "line": 34,
+          "txtdata": "i6Zz6cOa-RnmNQHLkQZeowLoOw",
+          "char_str_list": [
+            "i6Zz6cOa-RnmNQHLkQZeowLoOw"
+          ],
+          "ttl": "14400",
+          "name": "_acme-challenge.example.com.",
+          "class": "IN"
+        }
+      ],
+      "status": 1
+    }
+  ],
+  "func": "fetchzone",
+  "event": {
+    "result": 1
+  },
+  "module": "ZoneEdit",
+  "preevent": {
+    "result": 1
+  },
+  "postevent": {
+    "result": 1
+  },
+  "apiversion": 2
+}

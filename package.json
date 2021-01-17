@@ -1,0 +1,37 @@
+{
+  "name": "cpanel-zone-file",
+  "version": "0.0.0",
+  "description": "Generate DNS Zone from Cpanel",
+  "license": "MIT",
+  "repository": "johnie/cpanel-zone-file",
+  "author": {
+    "name": "Johnie Hjelm",
+    "email": "johnie@hjelm.im",
+    "url": "http://johnie.se"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cpanel",
+    "zone file",
+    "dns"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nyc": "^15.1.0",
+    "xo": "^0.37.0"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true
+  }
+}
